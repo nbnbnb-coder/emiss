@@ -1,0 +1,74 @@
+{
+    "users": {
+        "234346718": {
+            "first_name": "𝓔𝓡𝓕𝓐𝓝",
+            "username": "myd_erfan",
+            "joined_at": "2026-05-19 18:50:26",
+            "referrer": null
+        },
+        "80301814": {
+            "first_name": "محمد امین",
+            "username": "py_mc_amin",
+            "joined_at": "2026-05-19 18:50:26",
+            "referrer": null
+        },
+        "724729602": {
+            "first_name": "محمد امین",
+            "username": "بدون نام کاربری",
+            "joined_at": "2026-05-19 18:53:44",
+            "referrer": "80301814"
+        },
+        "672030777": {
+            "first_name": "ایمان حسین زاده",
+            "username": "imanqpq",
+            "joined_at": "2026-05-19 19:05:03",
+            "referrer": null
+        },
+        "965397102": {
+            "first_name": "Arash ",
+            "username": "telk_no",
+            "joined_at": "2026-05-19 19:36:10",
+            "referrer": null
+        },
+        "132068955": {
+            "first_name": "ویهان طالب پور",
+            "username": "بدون نام کاربری",
+            "joined_at": "2026-05-20 12:46:17",
+            "referrer": "672030777"
+        },
+        "1237349138": {
+            "first_name": "بردیا بیهقی",
+            "username": "bardiam_1",
+            "joined_at": "2026-05-20 12:46:18",
+            "referrer": "672030777"
+        },
+        "317373240": {
+            "first_name": "امیرحسین والی⚽️📚 ",
+            "username": "بدون نام کاربری",
+            "joined_at": "2026-05-20 16:38:28",
+            "referrer": "672030777"
+        },
+        "200248679": {
+            "first_name": "ءء",
+            "username": "www2013",
+            "joined_at": "2026-05-25 19:08:39",
+            "referrer": null
+        }
+    },
+    "referrals": {
+        "80301814": {
+            "count": 1,
+            "invited_users": [
+                "724729602"
+            ]
+        },
+        "672030777": {
+            "count": 3,
+            "invited_users": [
+                "132068955",
+                "1237349138",
+                "317373240"
+            ]
+        }
+    }
+}
