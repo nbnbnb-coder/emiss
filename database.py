@@ -2,10 +2,13 @@ import sqlite3
 import json
 from datetime import datetime
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "emis_war.db")
+
 
 # ایجاد دیتابیس
 def init_db():
-    conn = sqlite3.connect('emis_war.db')
+    conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS users (
         user_id INTEGER PRIMARY KEY,
@@ -32,7 +35,7 @@ init_db()
 
 # دریافت اطلاعات کاربر
 def get_user():
-    conn = sqlite3.connect('emis_war.db')
+    conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     c.execute("SELECT * FROM users")
     result = c.fetchall()
@@ -54,7 +57,7 @@ def get_user():
 
 # ذخیره کاربر
 def save_user(user_data):
-    conn = sqlite3.connect('emis_war.db')
+    conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     c.execute('''INSERT OR REPLACE INTO users 
         (user_id, name, country, score, treasury, daily_profit, defense, attack_power, 
